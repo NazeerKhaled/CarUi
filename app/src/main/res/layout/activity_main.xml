@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003cff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/menu_1"
+        android:layout_gravity="end"
+        android:layout_margin="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOW PLAYING"
+            android:textColor="#C6C0C0"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.06"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:src="@drawable/audio_1"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Night We Met- Lord Huron"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-black"
+                android:letterSpacing="0.06"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/car"
+                android:layout_gravity="center"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tesla Model S"
+                    android:textColor="#fff"
+                    android:textSize="25dp"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONNECTED"
+                    android:textColor="#fff"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/t1"
+                    android:layout_centerHorizontal="true"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/add"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/t2"
+                    android:layout_marginLeft="200dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/lock"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SWIPE TO UNLOCK"
+                android:textSize="13dp"
+                android:textColor="#003cff"
+                android:fontFamily="sans-serif-black"
+                android:letterSpacing="0.03"
+                android:layout_toRightOf="@id/i1"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/i2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/on_off"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SWIPE TO TURN ON ENGINE"
+                android:textSize="13dp"
+                android:textColor="#003cff"
+                android:fontFamily="sans-serif-black"
+                android:letterSpacing="0.03"
+                android:layout_toRightOf="@id/i2"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ii1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/open_hood"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OPEN HOOD"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="70dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/gas_tank"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OPEN HOOD"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="70dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/more"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OPEN HOOD"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
